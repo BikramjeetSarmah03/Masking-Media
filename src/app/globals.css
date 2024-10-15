@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  scroll-behavior: smooth;
+}
+
+.customContainer {
+  @apply mx-auto max-w-[80%] lg:max-w-[65%];
+}
+
+.customTransition {
+  @apply transition-all duration-300;
+}
