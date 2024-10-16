@@ -338,7 +338,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="md:mt-20 mt-10 customContainer lg:!max-w-[50%] pb-[1.5rem] customTransition md:pb-20 md:space-y-16">
+      <section className="md:mt-20 mt-10 customContainer lg:!max-w-[50%] pb-[1.5rem] customTransition md:pb-[2.5rem] md:space-y-16">
         <div>
           <div>
             <h1 className="font-bold md:text-[45px] customTransition font-oswald text-redPrimary text-center uppercase">
