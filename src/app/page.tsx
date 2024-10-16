@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="flex flex-col items-center gap-4 my-6 mx-14 md:mx-4 md:my-10">
+      <div className="flex flex-col items-center gap-4 my-6 mx-[2.5rem] md:mx-4 md:my-10">
         <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
           <a href="#book">YES! BOOK My FREE SLOT</a>
         </button>
