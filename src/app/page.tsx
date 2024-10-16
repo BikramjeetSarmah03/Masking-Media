@@ -327,6 +327,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col items-center gap-4 my-6 mx-14 md:mx-4 md:my-10">
+          <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
+            <a href="#book">YES! BOOK My FREE SLOT</a>
+          </button>
+          <p className="text-sm font-light text-center text-black md:text-base customTransition font-oswald">
+            Limited seats only , So Book Your Slot Before They Run Out
+          </p>
+        </div>
       </section>
 
       <section className="md:mt-20 mt-10 customContainer lg:!max-w-[50%] pb-10 customTransition md:pb-20 md:space-y-16">
@@ -361,6 +370,15 @@ export default function Home() {
           </div>
 
           <Accordion items={accordianItems} />
+        </div>
+
+        <div className="flex flex-col items-center gap-4 my-6 mx-14 md:mx-4 md:my-10 pb-[1.5rem]">
+          <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
+            <a href="#book">YES! BOOK My FREE SLOT</a>
+          </button>
+          <p className="text-sm font-light text-center md:text-base customTransition font-oswald">
+            Limited seats only , So Book Your Slot Before They Run Out
+          </p>
         </div>
       </section>
 
