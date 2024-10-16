@@ -57,7 +57,7 @@ export default function Home() {
           <a href="#book">YES! BOOK My FREE SLOT</a>
         </button>
 
-        <p className="text-sm font-light text-center md:text-base customTransition font-oswald">
+        <p className="text-sm font-light text-center md:text-base customTransition font-oswald text-[10px] mt-[-0.5rem] md:mt-auto ">
           Limited seats only , So Book Your Slot Before They Run Out
         </p>
       </div>
@@ -136,7 +136,7 @@ export default function Home() {
             <a href="#book">YES! BOOK My FREE SLOT</a>
           </button>
 
-          <p className="text-sm font-light text-center md:text-base customTransition font-oswald">
+          <p className="text-sm font-light text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
             Limited seats only , So Book Your Slot Before They Run Out
           </p>
         </div>
@@ -333,7 +333,7 @@ export default function Home() {
             <a href="#book">YES! BOOK My FREE SLOT</a>
           </button>
 
-          <p className="text-sm font-light text-center text-black md:text-base customTransition font-oswald">
+          <p className="text-sm font-light text-center text-black md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
             Limited seats only , So Book Your Slot Before They Run Out
           </p>
         </div>
@@ -377,7 +377,7 @@ export default function Home() {
           <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
             <a href="#book">YES! BOOK My FREE SLOT</a>
           </button>
-          <p className="text-sm font-light text-center md:text-base customTransition font-oswald">
+          <p className="text-sm font-light text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
             Limited seats only , So Book Your Slot Before They Run Out
           </p>
         </div>
