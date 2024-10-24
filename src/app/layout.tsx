@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import Head from "next/head";
+import Script from "next/script";
 import "./globals.css";
 // import MetaPixel from "./_components/meta-pixel";
 
@@ -27,23 +27,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        {/* Google tag (gtag.js) */}
-        <script
+      <head>
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-9HJQX9YL3T"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+        />
+
+        <Script id="google-analytics">
+          {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-9HJQX9YL3T');
-            `,
-          }}
-        />
-      </Head>
+              gtag('config', G-9HJQX9YL3T);
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
