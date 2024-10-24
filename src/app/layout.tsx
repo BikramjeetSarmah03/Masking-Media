@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import MetaPixel from "./_components/meta-pixel";
+// import MetaPixel from "./_components/meta-pixel";
 
 const geistSans = localFont({
   src: "./fonts/AssistantVF.ttf",
@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <MetaPixel />
+        {/* <MetaPixel /> */}
         {children}
       </body>
     </html>
