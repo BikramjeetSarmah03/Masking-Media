@@ -4,14 +4,14 @@
 import Image from "next/image";
 import Script from "next/script";
 import { Accordion, AccordionItem } from "./_components/accordian";
-import MetaPixel from "./_components/meta-pixel";
+// import MetaPixel from "./_components/meta-pixel";
 
 import Steps from "../assets/steps.png";
 
 export default function Home() {
   return (
     <>
-      <MetaPixel />
+      {/* <MetaPixel /> */}
       <main className="overflow-x-hidden text-white bg-black">
         <header className="flex flex-col items-center justify-center py-3 mb-4 space-y-2 customContainer">
           <img
@@ -32,7 +32,7 @@ export default function Home() {
               {/* Step-By-Step Secrets */}
               60 Days to your
             </h1>
-            <h1 className="font-assistant uppercase font-black customTransition text-[18px] md:text-[50px] text-redPrimary -mt-[0.5rem] md:-mt-[1.4rem]">
+            <h1 className="font-assistant uppercase font-black customTransition text-[20px] md:text-[50px] text-redPrimary -mt-[0.5rem] md:-mt-[1.4rem]">
               {/* “online income system” */}
               “first youtube pay-check”
             </h1>
