@@ -22,15 +22,20 @@ export default function Home() {
 
       <section className="space-y-6 md:my-10 customTransition customContainer">
         <div className="text-center">
-          <h3 className="font-oswald font-normal customTransition text-xs md:text-[25px]">
+          {/* <h3 className="font-oswald font-normal customTransition text-xs md:text-[25px]">
             Earn Passive Income on YouTube Without Lifting a Finger
-          </h3>
+          </h3> */}
           <h1 className="font-assistant customTransition font-extrabold text-[20px] md:text-[50px] uppercase">
-            Step-By-Step Secrets
+            {/* Step-By-Step Secrets */}
+            60 Days to your
           </h1>
           <h1 className="font-assistant uppercase font-black customTransition text-[22px] md:text-[50px] text-redPrimary -mt-[0.5rem] md:-mt-[1.4rem]">
-            “online income system”
+            {/* “online income system” */}
+            “first youtube pay-check”
           </h1>
+          <h3 className="font-oswald font-normal customTransition text-xs md:text-[25px]">
+            The automation Advantage
+          </h3>
         </div>
 
         <div className="lg:max-w-[1200px] customTransition mx-auto h-[180px] sm:h-[260px] md:h-[400px] lg:h-[600px] relative rounded-md">
@@ -360,6 +365,15 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="flex flex-col items-center gap-4 my-6 md:mx-4 md:my-10 pt-[1.5rem]">
+          <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
+            <a href="#book">YES! BOOK My FREE SLOT</a>
+          </button>
+          <p className="text-sm font-light text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
+            Limited seats only , So Book Your Slot Before They Run Out
+          </p>
         </div>
 
         <div className="mt-10 md:space-y-14 ">

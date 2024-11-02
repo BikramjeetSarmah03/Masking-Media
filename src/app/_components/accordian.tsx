@@ -49,12 +49,16 @@ function AccordionItem({
   toggleAccordion: () => void;
 }) {
   return (
-    <div className="border-b pb-4 md:pb-8 mt-8">
+    <div className="border-b border-redPrimary pb-4 md:pb-8 mt-8">
       <div
         className="p-2 cursor-pointer flex justify-between items-center text-gray"
         onClick={toggleAccordion}
       >
-        <h2 className="text-redPrimary font-medium customTransition md:text-[25px]">
+        <h2
+          className={`font-medium customTransition md:text-[25px] hover:text-redPrimary ${
+            isOpen ? "text-redPrimary" : "text-white"
+          }`}
+        >
           {title}
         </h2>
         {isOpen ? (
