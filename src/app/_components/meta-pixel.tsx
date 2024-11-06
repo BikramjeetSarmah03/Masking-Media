@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
 /* eslint-disable @next/next/no-img-element */
 import Script from "next/script";
 
 const MetaPixel = () => (
   <>
-    {/* Meta Pixel Code */}
+    {/* Meta Pixel Script */}
     <Script
       id="meta-pixel-script"
-      strategy="afterInteractive"
+      strategy="afterInteractive" // Ensures it loads after the page is interactive
       dangerouslySetInnerHTML={{
         __html: `
           !function(f,b,e,v,n,t,s)
@@ -19,18 +19,19 @@ const MetaPixel = () => (
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '863250672591106');
+          fbq('init', '361486866991714');
           fbq('track', 'PageView');
         `,
       }}
     />
-    {/* NoScript Image */}
+
+    {/* NoScript fallback for users with JavaScript disabled */}
     <noscript>
       <img
         height="1"
         width="1"
         style={{ display: "none" }}
-        src="https://www.facebook.com/tr?id=863250672591106&ev=PageView&noscript=1"
+        src="https://www.facebook.com/tr?id=361486866991714&ev=PageView&noscript=1"
         alt="Facebook Pixel"
       />
     </noscript>

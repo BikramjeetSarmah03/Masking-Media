@@ -62,7 +62,12 @@ export default function Home() {
 
         <div className="flex flex-col items-center gap-4 my-6 mx-[2.5rem] md:mx-4 md:my-10">
           <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
-            <a href="#book">YES! BOOK My FREE SLOT</a>
+            <a
+              href="https://calendly.com/maskingmedia01/youtubeautomation"
+              target="_blank"
+            >
+              YES! BOOK My FREE SLOT
+            </a>
           </button>
 
           <p className="font-light text-center md:text-base customTransition font-oswald text-[12px] mt-[-0.5rem] md:mt-auto ">
@@ -141,7 +146,12 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-4 my-6 md:mx-4 md:my-10">
             <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-6 md:px-20 rounded-lg uppercase py-2">
-              <a href="#book">YES! BOOK My FREE SLOT</a>
+              <a
+                href="https://calendly.com/maskingmedia01/youtubeautomation"
+                target="_blank"
+              >
+                YES! BOOK My FREE SLOT
+              </a>
             </button>
 
             <p className="font-light text-[12px] text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
@@ -338,7 +348,12 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-4 mx-8 my-6 md:mx-4 md:my-10">
             <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-6 md:px-20 rounded-lg uppercase py-2">
-              <a href="#book">YES! BOOK My FREE SLOT</a>
+              <a
+                href="https://calendly.com/maskingmedia01/youtubeautomation"
+                target="_blank"
+              >
+                YES! BOOK My FREE SLOT
+              </a>
             </button>
 
             <p className="text-[12px] font-light text-center text-black md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
@@ -372,7 +387,12 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-4 my-6 md:mx-4 md:my-10 pt-[1.5rem]">
             <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
-              <a href="#book">YES! BOOK My FREE SLOT</a>
+              <a
+                href="https://calendly.com/maskingmedia01/youtubeautomation"
+                target="_blank"
+              >
+                YES! BOOK My FREE SLOT
+              </a>
             </button>
             <p className="text-[12px] font-light text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
               Limited seats only , So Book Your Slot Before They Run Out
@@ -392,7 +412,12 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-4 my-6 md:mx-4 md:my-10 pt-[1.5rem]">
             <button className="font-assistant font-extrabold md:text-[36px] bg-gradient-to-r from-[#ff2800] to-[#961800] customTransition w-full md:w-fit px-8 md:px-20 rounded-lg uppercase py-2">
-              <a href="#book">YES! BOOK My FREE SLOT</a>
+              <a
+                href="https://calendly.com/maskingmedia01/youtubeautomation"
+                target="_blank"
+              >
+                YES! BOOK My FREE SLOT
+              </a>
             </button>
             <p className="text-[12px] font-light text-center md:text-base customTransition font-oswald mt-[-0.5rem] md:mt-auto ">
               Limited seats only , So Book Your Slot Before They Run Out
